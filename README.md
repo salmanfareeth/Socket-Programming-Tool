@@ -27,7 +27,7 @@ DISCLAIMER: This tool is for learning and educational purposes only. Using it wi
 ## Instructions for Running the Tool
 
 1. **Port Scanner:**
-   ```sh
+   ```py
    python socketprogram.py port_scanner <target_ip> <start_port> <end_port>
    Example: python socketprogram.py port_scanner 127.0.0.1 1 1024
    ```
