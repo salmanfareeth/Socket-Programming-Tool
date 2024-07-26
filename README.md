@@ -4,14 +4,6 @@
 
 The Socket Programming Tool is a comprehensive utility designed to facilitate various network-related tasks using Python's socket programming capabilities. It includes functionalities for scanning open ports, grabbing server banners, and setting up TCP/UDP servers and clients. Additionally, it features a simple chat application for multiple clients to communicate through a server. This tool is intended for educational purposes, allowing users to understand and experiment with different aspects of socket programming.
 
-## Developer Note
-
-Tool developed and maintained by salmanfareeth.
-This tool is in beta version.
-
-## Disclaimer
-
-DISCLAIMER: This tool is for learning and educational purposes only. Using it without proper authorization is illegal. Always ensure you have permission to test on the network you are working with.
 
 ## Features
 
@@ -24,7 +16,21 @@ DISCLAIMER: This tool is for learning and educational purposes only. Using it wi
 7. **Chat Server**: Facilitates communication between multiple clients in a chat room setting.
 8. **Chat Client**: Connects to a chat server to send and receive messages.
 
-## Instructions for Running the Tool
+## Installation
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/salmanfareeth/Socket-Programming-Tool.git
+    cd Socket-Programming-Tool
+    ```
+
+2. **Install the required Python module:**
+    ```bash
+    pip install socket
+    pip install threading
+    ```
+
+## Usage
 
 1. **Port Scanner:**
    ```py
@@ -72,3 +78,12 @@ DISCLAIMER: This tool is for learning and educational purposes only. Using it wi
    python socketprogram.py chat_client <host> <port>
    Example: python socketprogram.py chat_client 127.0.0.1 9999
    ```
+
+## Developer Note
+
+Tool developed and maintained by salmanfareeth.
+This tool is in beta version.
+
+## Disclaimer
+
+DISCLAIMER: This tool is for learning and educational purposes only. Using it without proper authorization is illegal. Always ensure you have permission to test on the network you are working with.
