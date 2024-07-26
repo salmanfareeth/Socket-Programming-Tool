@@ -100,19 +100,11 @@ For more information on socket programming, please refer to the following resour
    - Link: [GeeksforGeeks](https://www.geeksforgeeks.org/socket-programming-python/)
    - Description: Step-by-step tutorials on socket programming in Python with practical examples.
 
-5. **Python Socket Programming Tutorial by Tutorialspoint**
-   - Link: [Tutorialspoint](https://www.tutorialspoint.com/python/python_networking.htm)
-   - Description: A tutorial on networking in Python, including socket programming basics and examples.
-
-6. **Python Networking Programming Cookbook**
+5. **Python Networking Programming Cookbook**
    - Link: [O'Reilly](https://www.oreilly.com/library/view/python-network-programming/9781785885123/)
    - Description: A cookbook that covers various network programming tasks in Python, offering practical solutions and code examples.
 
-7. **Unix Network Programming by W. Richard Stevens**
-   - Link: [Unix Network Programming](https://www.amazon.com/Unix-Network-Programming-Vol-Networking/dp/0131411551)
-   - Description: A classic book on network programming that, while focused on Unix, provides fundamental concepts applicable in Python.
-
-8. **Python for Networking and Security by José Manuel Ortega**
+6. **Python for Networking and Security by José Manuel Ortega**
    - Link: [Packt Publishing](https://www.packtpub.com/product/python-for-networking-and-security/9781789952081)
    - Description: A book that dives into Python's networking and security capabilities, covering socket programming and more.
 
