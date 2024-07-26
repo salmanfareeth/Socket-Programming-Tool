@@ -86,4 +86,4 @@ This tool is in beta version.
 
 ## Disclaimer
 
-DISCLAIMER: This tool is for learning and educational purposes only. Using it without proper authorization is illegal. Always ensure you have permission to test on the network you are working with.
+This tool is for learning and educational purposes only. Using it without proper authorization is illegal. Always ensure you have permission to test on the network you are working with.
