@@ -32,23 +32,22 @@ DISCLAIMER: This tool is for learning and educational purposes only. Using it wi
    Example: python socketprogram.py port_scanner 127.0.0.1 1 1024
    ```
 2. **Banner Grabber:**
-   ```sh
+   ```py
    python socketprogram.py banner_grabber <target_ip> <target_port>
    Example: python socketprogram.py banner_grabber 127.0.0.1 80
    ```
 
 3. **TCP Server:**
-   ```sh
+   ```py
    python socketprogram.py tcp_server <host> <port>
    Example: python socketprogram.py tcp_server 127.0.0.1 9999
    ```
 
 4. **TCP Client:**
-
-sh
-
-python tool.py tcp_client <host> <port> <message>
-Example: python tool.py tcp_client 127.0.0.1 9999 "Hello, TCP Server!"
+   ```py
+   python socketprogram.py tcp_client <host> <port> <message>
+   Example: python socketprogram.py tcp_client 127.0.0.1 9999 "Hi from Syed, TCP Server!"
+   ```
 
 5. **UDP Server:**
 
