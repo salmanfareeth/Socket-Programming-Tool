@@ -50,29 +50,25 @@ DISCLAIMER: This tool is for learning and educational purposes only. Using it wi
    ```
 
 5. **UDP Server:**
-
-sh
-
-python tool.py udp_server <host> <port>
-Example: python tool.py udp_server 127.0.0.1 9999
+   ```py
+   python socketprogram.py udp_server <host> <port>
+   Example: python socketprogram.py udp_server 127.0.0.1 9999
+   ```
 
 6. **UDP Client:**
-
-sh
-
-python tool.py udp_client <host> <port> <message>
-Example: python tool.py udp_client 127.0.0.1 9999 "Hello, UDP Server!"
+   ```py
+   python socketprogram.py udp_client <host> <port> <message>
+   Example: python socketprogram.py udp_client 127.0.0.1 9999 "Hi from Syed, UDP Server!"
+   ```
 
 7. **Chat Server:**
-
-sh
-
-python tool.py chat_server <host> <port>
-Example: python tool.py chat_server 127.0.0.1 9999
-
+   ```py
+   python socketprogram.py chat_server <host> <port>
+   Example: python socketprogram.py chat_server 127.0.0.1 9999
+   ```
+   
 8. **Chat Client:**
-
-sh
-
-python tool.py chat_client <host> <port>
-Example: python tool.py chat_client 127.0.0.1 9999
+   ```py
+   python socketprogram.py chat_client <host> <port>
+   Example: python socketprogram.py chat_client 127.0.0.1 9999
+   ```
