@@ -3,8 +3,8 @@ import threading
 import argparse
 
 
-# ASCII Art
-ASCII_ART = r"""
+
+TOOL_INTRO = r"""
  _____                _ _                                                                     
 /  ___|              | ( )                                                                    
 \ `--. _   _  ___  __| |/ ___                                                                 
@@ -200,7 +200,7 @@ def chat_client(host, port):
         client_socket.close()
 
 def main():
-    print(ASCII_ART)
+    print(TOOL_INTRO)
     print(DEVELOPER_NOTE)
     print(DISCLAIMER)
 
